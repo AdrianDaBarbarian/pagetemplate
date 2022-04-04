@@ -9,6 +9,10 @@ nav {
     margin: auto;
 }
 
+.navbar-brand {
+    padding-right: 5rem;
+}
+
 .nav-links {
     display: flex;
     justify-content: space-between;
@@ -49,12 +53,17 @@ nav {
     color: white;
 }
 
+.first {
+    min-height: 100vh;
+    /*sets the height to take up 100% of viewport*/
+}
+
 .front-cover img {
     position: relative;
     z-index: -3; 
 }
 
-img {
+.img1 {
     max-width: 400px;
 
     border-radius: 50%;
@@ -76,4 +85,50 @@ a:active { text-decoration: none; }
 
 section {
     text-align: center;
+}
+
+
+/*Features Section*/
+
+
+#myID {
+    min-height: 100vh;
+    min-width: 100%;
+    position: absolute;
+
+    background-color: white;
+    text-align: center;
+    z-index: -2;
+  }
+
+  #myID2 {
+    
+      max-width: 400px;
+      display: -webkit-inline-box;
+      top: 50%;
+  }
+
+.img2 {
+    position: absolute;
+    border-radius: 50%;
+    z-index: -2;
+    max-width: 400px;
+        right: 30%;
+        left: 30%;
+    top: 10rem;
+}
+
+.des {
+    position: absolute;
+    display: flexbox;
+   bottom: -100%;
+    max-width: 25%;
+   
+}
+
+.des1 {
+    position: absolute;
+    display: flexbox;
+    left: 75%;
+    max-width: 25%;
 }
