@@ -21,3 +21,15 @@ navLinks.forEach(link => {
         link.classList.add('hovered-link');
     });
 });
+
+
+document.getElementById("myID2").addEventListener("mouseout", function() {
+    document.getElementById("myID").style.backgroundColor = "white";
+    
+});
+
+document.getElementById("myID2").addEventListener("mouseover", function() {
+    document.getElementById("myID").style.backgroundColor = "black";
+    
+});
+    
